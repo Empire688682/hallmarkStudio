@@ -131,13 +131,13 @@
         // document.body.style.overflow = "visible";
         // };
 
-        // // -------- intersection section------------------------
-        // window.addEventListener("DOMContentLoaded", setup);
+        // -------- intersection section------------------------
+        window.addEventListener("DOMContentLoaded", setup);
 
-        // function setup(){
-        //     const options = {
-        //         rootMarging: '0p 0p -200px 0px'
-        //     };
+        function setup(){
+            const options = {
+                rootMarging: '0p 0p -200px 0px'
+            };
 
             const observer = new IntersectionObserver((entries, observer) =>{
                 entries.forEach(entry =>{
