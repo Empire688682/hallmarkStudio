@@ -1,10 +1,10 @@
 
 //STAGE ONE -------- intersection section------------------------
 const loadingContainer = document.getElementById("loadingContainer");
-window.addEventListener("load", () =>{
-    loadingContainer.style.display = "none";
-    showScroll();
-});
+// window.addEventListener("load", () =>{
+//     loadingContainer.style.display = "none";
+//     showScroll();
+// });
 
 function hideScroll(){
   document.body.style.overflow = "hidden";
