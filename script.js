@@ -6,13 +6,13 @@ const loadingContainer = document.getElementById("loadingContainer");
 //     showScroll();
 // });
 
-function hideScroll(){
-  document.body.style.overflow = "hidden";
-};
-hideScroll();
-function showScroll(){
-  document.body.style.overflow = "visible";
-};
+// function hideScroll(){
+//   document.body.style.overflow = "hidden";
+// };
+// hideScroll();
+// function showScroll(){
+//   document.body.style.overflow = "visible";
+// };
 
 //STAGE Two -------- intersection section------------------------
 window.addEventListener("DOMContentLoaded", setup);
